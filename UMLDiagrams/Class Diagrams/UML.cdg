@@ -73,7 +73,7 @@
         <Method name="toString" returnType="String" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="Biblioteca" package="" visibility="public" xPosition="714.0" yPosition="367.0">
+    <Class name="Biblioteca" package="" visibility="public" xPosition="719.0" yPosition="365.0">
       <Fields>
         <Field name="llibres" type="ArrayList&lt;Copia&gt;" visibility="private"/>
         <Field name="lectors" type="ArrayList&lt;Lector&gt;" visibility="private"/>
@@ -91,10 +91,10 @@
         <Method name="afegirCopia" returnType="void" visibility="public">
           <Argument type="Copia" name="copia"/>
         </Method>
-        <Method name="veureCopia" returnType="int" visibility="public">
+        <Method name="veureCopia" returnType="Copia" visibility="public">
           <Argument type="int" name="id"/>
         </Method>
-        <Method name="veureLector" returnType="int" visibility="public">
+        <Method name="veureLector" returnType="Lector" visibility="public">
           <Argument type="int" name="id"/>
         </Method>
       </Methods>
