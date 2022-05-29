@@ -2,7 +2,7 @@
 
 <ClassDiagram name="UML">
   <ClassDiagramComponents>
-    <Class name="Llibre" package="" visibility="public" isAbstract="true" xPosition="235.0" yPosition="27.0">
+    <Class name="Llibre" package="" visibility="public" isAbstract="true" xPosition="118.0" yPosition="9.0">
       <Fields>
         <Field name="nom" type="String" visibility="private"/>
         <Field name="tipus" type="String" visibility="private"/>
@@ -10,7 +10,15 @@
         <Field name="any" type="int" visibility="private"/>
         <Field name="autor" type="Autor" visibility="private"/>
       </Fields>
-      <Constructors/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nom"/>
+          <Argument type="String" name="tipus"/>
+          <Argument type="String" name="editorial"/>
+          <Argument type="int" name="any"/>
+          <Argument type="Autor" name="autor"/>
+        </Constructor>
+      </Constructors>
       <Methods>
         <Method name="getAutor" returnType="Autor" visibility="public" isAbstract="true"/>
         <Method name="getAny" returnType="int" visibility="public" isAbstract="true"/>
