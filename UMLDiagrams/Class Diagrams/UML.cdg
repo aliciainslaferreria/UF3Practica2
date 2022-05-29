@@ -64,7 +64,7 @@
         </Constructor>
       </Constructors>
       <Methods>
-        <Method name="buscarLlibre" returnType="String" visibility="public">
+        <Method name="buscarLlibre" returnType="Llibre" visibility="public">
           <Argument type="String" name="nom"/>
         </Method>
         <Method name="getNom" returnType="String" visibility="public"/>
