@@ -27,7 +27,7 @@
         <Method name="getNom" returnType="String" visibility="public" isAbstract="true"/>
       </Methods>
     </Class>
-    <Class name="Copia" package="" visibility="public" xPosition="67.0" yPosition="536.0">
+    <Class name="Copia" package="" visibility="public" xPosition="67.0" yPosition="574.0">
       <Fields>
         <Field name="ID" type="int" visibility="private" isFinal="true"/>
         <Field name="estat" type="String" visibility="private"/>
@@ -49,11 +49,6 @@
         </Method>
         <Method name="getId" returnType="int" visibility="public"/>
         <Method name="getEstat" returnType="String" visibility="public"/>
-        <Method name="getAutor" returnType="Autor" visibility="public"/>
-        <Method name="getAny" returnType="int" visibility="public"/>
-        <Method name="getEditorial" returnType="String" visibility="public"/>
-        <Method name="getTipus" returnType="String" visibility="public"/>
-        <Method name="getNom" returnType="String" visibility="public"/>
         <Method name="toString" returnType="String" visibility="public"/>
       </Methods>
     </Class>
