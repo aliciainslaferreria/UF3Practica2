@@ -36,7 +36,7 @@
         </Constructor>
       </Constructors>
       <Methods>
-        <Method name="setEstat" returnType="String" visibility="public">
+        <Method name="setEstat" returnType="void" visibility="public">
           <Argument type="String" name="estat"/>
         </Method>
         <Method name="getId" returnType="int" visibility="public"/>
@@ -73,7 +73,7 @@
         <Method name="toString" returnType="String" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="Biblioteca" package="" visibility="public" xPosition="713.0" yPosition="367.0">
+    <Class name="Biblioteca" package="" visibility="public" xPosition="714.0" yPosition="367.0">
       <Fields>
         <Field name="llibres" type="ArrayList&lt;Copia&gt;" visibility="private"/>
         <Field name="lectors" type="ArrayList&lt;Lector&gt;" visibility="private"/>
@@ -85,10 +85,10 @@
         </Constructor>
       </Constructors>
       <Methods>
-        <Method name="afegirLector" returnType="Lector" visibility="public">
+        <Method name="afegirLector" returnType="void" visibility="public">
           <Argument type="Lector" name="lector"/>
         </Method>
-        <Method name="afegirCopia" returnType="Copia" visibility="public">
+        <Method name="afegirCopia" returnType="void" visibility="public">
           <Argument type="Copia" name="copia"/>
         </Method>
         <Method name="veureCopia" returnType="int" visibility="public">
